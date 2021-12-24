@@ -1,0 +1,8 @@
+footer {
+  height: 5rem;
+  background-color: rgb(80, 173, 19);
+  
+  @include responsive(phone) {
+    visibility: hidden;
+  }
+}
