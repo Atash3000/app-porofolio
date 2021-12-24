@@ -1,0 +1,10 @@
+.header {
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  background-color: red;
+  
+  @include responsive(phone) {
+    visibility: hidden;
+  }
+}

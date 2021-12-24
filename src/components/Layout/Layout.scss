@@ -1,0 +1,8 @@
+.main {
+  height: 90vh;
+
+  @include responsive(phone) {
+     height: 100vh;
+     background-color: red;
+  }
+}
