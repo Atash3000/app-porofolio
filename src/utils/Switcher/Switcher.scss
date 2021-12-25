@@ -5,7 +5,8 @@
   cursor: pointer;
 
   & input {
-    
+    border: 0;
+    outline: 0;
     position: relative;
     z-index: 1;
     appearance: none;

@@ -11,10 +11,12 @@ html{
   font-size:62.5% ;
   font-family: $font-primary;
  line-height: 1.5;
- //scroll-behavior: smooth;
+ scroll-behavior: smooth;
+ 
 }
 
 body{
   min-height: 100vh;
+  min-width: 320px;
 }
 

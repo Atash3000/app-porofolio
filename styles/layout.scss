@@ -1,0 +1,15 @@
+.grid{
+  display: grid;
+  gap:1.5rem;
+}
+
+.flex{
+  display: flex;
+  
+}
+
+.container{
+  max-width: 768px;
+  margin-left:$mb-1-5;
+  margin-right: $mb-1-5;
+}

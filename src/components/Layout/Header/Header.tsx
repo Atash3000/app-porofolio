@@ -4,35 +4,39 @@ import Switcher from '../../../utils/Switcher/Switcher'
 
 export default function Header() {
   return (
-    <header className="header">
-      <Switcher />
-      <ul className="list">
-        <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>about</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>skills</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>portofolio</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>contact me</a>
-          </Link>
-        </li>
-      </ul>
+    <header className="header" id="header">
+
+      {/* <nav className="nav container">
+        <div className="nav__menu" id="nav-menu">
+          <ul className="nav__list flex">
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>about</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>skills</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>portofolio</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>contact me</a>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav> */}
     </header>
   )
 }

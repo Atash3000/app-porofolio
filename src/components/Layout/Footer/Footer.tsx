@@ -9,6 +9,7 @@ function Footer() {
         <div className="wave" id="wave3"></div>
         <div className="wave" id="wave4"></div>
       </div>
+      <p>Atamurad Babakulyyev all rights reserved ~2022</p>
     </footer>
   )
 }

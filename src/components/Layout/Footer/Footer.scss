@@ -4,7 +4,9 @@ footer {
  background-color: #3586ff;
  min-height: 10rem;
  
- 
+ display: flex;
+ justify-content: center;
+
 
  & .wave{
    position: absolute;
@@ -44,6 +46,11 @@ footer {
   // @include responsive(phone) {
   //   visibility: hidden;
   // }
+
+  & p{
+color:#fff;
+font-size:1.5rem;
+  }
 }
 
 
