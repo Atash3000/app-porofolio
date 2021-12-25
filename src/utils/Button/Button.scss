@@ -1,31 +1,44 @@
 .btn{
   position: relative;
-  display: inline-block;
-  padding:12px 36px;
-  margin:10px 0;
-  color:#fff;
-  overflow: hidden;
-  text-decoration: none;
+  cursor: pointer;
+
+  display: inline-flex;
+  padding:10px 30px;
+  background-color: #252525;
   text-transform: uppercase;
+  overflow: hidden;
+    color:#fff;
+
   font-size: 1.8rem;
-  letter-spacing: 2px;
-  border-radius: 4rem;
+  letter-spacing: 1px;
   border:0;
-  &--primary{
-    background:linear-gradient(90deg,#0162c8,#55e7fc);
+  & span{
+    position: relative;
+    z-index: 1;
   }
-    &--secondary{
-    background:linear-gradient(90deg,#755bea,#ff72c0);
+  &::before{
+    content:'';
+    position: absolute;
+    top:var(--y);
+    left:var(--x);
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background:  #3586ff;
+    transition: width 0.5s, height 0.5s;
   }
 
-  &--span{
-    position: absolute;
-    background: #fff;
-    transform: translate(-50%,-50%);
-    pointer-events: none;
-    border-radius: 50%;
-    animation: animate 1s linear infinite;
+  &:hover:before{
+    width: 20rem;
+    height: 20rem;
   }
+
+  
+
+  
+
+  
 }
 
 
