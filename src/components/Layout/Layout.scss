@@ -1,5 +1,8 @@
 .main {
-  height: 90vh;
+ display:flex;
+ justify-content: space-between;
+ flex-direction: column;
+
 
   @include responsive(phone) {
      height: 100vh;
