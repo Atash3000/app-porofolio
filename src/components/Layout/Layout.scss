@@ -1,5 +1,9 @@
 .main {
- height: 100vh;
+ 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100vh;
 
- background-color: rgb(95, 172, 95);
+ background-color: rgb(161, 192, 49);
 }

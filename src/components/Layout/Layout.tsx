@@ -4,11 +4,11 @@ import Header from './Header/Header'
 
 function Layout(props) {
   return (
-    <Fragment>  
+    <main className="main">
       <Header />
-      <main className="main">{props.children}</main>
+      {props.children}
       <Footer />
-    </Fragment>
+    </main>
   )
 }
 
