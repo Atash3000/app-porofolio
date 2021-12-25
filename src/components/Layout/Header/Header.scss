@@ -2,9 +2,9 @@
   position: fixed;
   height: 5rem;
   width: 100%;
-  background-color: red;
+  background-color: rgb(111, 214, 27);
   
-  @include responsive(phone) {
-    visibility: hidden;
-  }
+  // @include responsive(phone) {
+  //   visibility: hidden;
+  // }
 }

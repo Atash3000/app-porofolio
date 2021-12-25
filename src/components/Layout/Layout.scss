@@ -1,11 +1,5 @@
 .main {
- display:flex;
- justify-content: space-between;
- flex-direction: column;
+ height: 100vh;
 
-
-  @include responsive(phone) {
-     height: 100vh;
-     background-color: red;
-  }
+ background-color: rgb(95, 172, 95);
 }
