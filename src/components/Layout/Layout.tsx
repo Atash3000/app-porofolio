@@ -1,17 +1,15 @@
-import React, { Fragment } from 'react'
-import MobileMenu from '../ui/MobileMenu/MobileMenu'
-import Footer from './Footer/Footer'
-import Header from './Header/Header'
+import React, { Fragment, FC, Children } from 'react';
+import Footer from './Footer/Footer';
 
-function Layout(props) {
+interface Props {}
+
+const Layout: FC<Props> = (props) => {
   return (
     <>
-      <Header />
-      <main className="main">{props.children}</main>
-      <MobileMenu />
-      {/* <Footer /> */}
+      <main id='main'>{props.children}</main>;
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
